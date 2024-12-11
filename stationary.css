@@ -1,0 +1,274 @@
+
+body{
+  background-color: rgb(248, 118, 220);
+}
+.container-fluid{
+    background-color:rgb(231, 59, 151);
+    height: 100px;
+    border-bottom: 2px solid rgb(8, 6, 8);  
+    position: relative;
+    bottom: 8px;   
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 2px;
+}
+
+.link{
+    display: inline-block;
+    position: relative;
+    color: black;
+    padding: 20px;
+    text-decoration: none; 
+    
+}
+.link2{
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 20px;
+  position: relative;
+  bottom: 10px;
+  background-color: rgb(241, 9, 203);
+  padding-bottom: 10px;
+  border: 2px solid black;
+
+  
+}
+.link3{
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 20px;
+  left: 270px;
+  bottom: 10px;
+ background-color: rgb(241, 9, 203);
+ border: 2px solid black;
+ 
+ 
+}
+
+.navigation{
+  height: 40px;
+  background-color: rgb(252, 0, 84);
+  position: relative;
+  bottom: 16px;
+  
+}
+
+.buy-now {
+    font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color:blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 580px;
+  left: 500px;
+    
+  }
+  
+  .buy-now .span-mother {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .buy-now:hover .span-mother {
+    position: absolute;
+  }
+  
+  .buy-now:hover .span-mother span {
+    transform: translateY(1.2em);
+  }
+  
+  .buy-now .span-mother span:nth-child(1) {
+    transition: 0.2s;
+  }
+  
+  .buy-now .span-mother span:nth-child(2) {
+    transition: 0.3s;
+  }
+  
+  .buy-now .span-mother span:nth-child(3) {
+    transition: 0.4s;
+  }
+  
+  .buy-now .span-mother span:nth-child(4) {
+    transition: 0.5s;
+  }
+  
+  .buy-now .span-mother span:nth-child(5) {
+    transition: 0.6s;
+  }
+  
+  .buy-now .span-mother span:nth-child(6) {
+    transition: 0.7s;
+  }
+  
+  .buy-now .span-mother2 {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .buy-now .span-mother2 span {
+    transform: translateY(-1.2em);
+  }
+  
+  .buy-now:hover .span-mother2 span {
+    transform: translateY(0);
+  }
+  
+  .buy-now .span-mother2 span {
+    transition: 0.2s;
+  }
+  
+  .buy-now .span-mother2 span:nth-child(2) {
+    transition: 0.3s;
+  }
+  
+  .buy-now .span-mother2 span:nth-child(3) {
+    transition: 0.4s;
+  }
+  
+  .buy-now .span-mother2 span:nth-child(4) {
+    transition: 0.5s;
+  }
+  
+  .buy-now .span-mother2 span:nth-child(5) {
+    transition: 0.6s;
+  }
+  
+  .buy-now .span-mother2 span:nth-child(6) {
+    transition: 0.7s;
+  }
+  h4{
+    position: relative;
+    bottom: 400px;
+    left: 300px;
+    font-size: 20px;
+  }
+  .carousel-inner{
+    position: relative;
+    bottom: 16px;
+  }
+  .search{
+    position: relative;
+    top: 1px;
+  }
+  .search-button{
+    background-color: blueviolet;
+    color: white;
+  }
+  .btn-group{
+    position: relative;
+    bottom: 710px;
+    left: 500px;
+    
+  }
+  .ul {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    list-style: none;
+  }
+  .li {
+    margin-bottom: 0px;
+  }
+  .bn {
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    border: none;
+    font-size: 10px;
+    font-weight: 700;
+    right: 20px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 10px;
+    text-align: center;
+    transition: 0.1s;
+    z-index: 1;
+    top: 15px;
+    
+    
+    
+    
+  }
+  
+  .p {
+    z-index: 2;
+    position: relative;
+  }
+  
+  .bn:hover {
+    color: rgb(252, 233, 252);
+    text-align: center;
+    
+  }
+  
+  .bn::before {
+    content: "";
+    border-radius: 1px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(168, 5, 218);
+    left: -10px;
+    top: 5px;
+    cursor: pointer;
+    transform: rotate(225deg);
+    transition: 0.3s;
+    z-index: -1;
+  }
+  
+
+  .ui{
+    display: inline-block;
+  }
+  
+  .head1{
+    position: relative;
+    bottom: 320px;
+    left: -0px;
+
+  }
+  .active{
+    height: 500px;
+  }
+  .im-3{
+    height: 500px;
+  }
+  /* ------------------------------------------------------ */
+  .banner{
+    height: 70px;
+    background-color: rgb(226, 43, 113);
+    position: relative;
+    bottom: 15px;
+    border-top: 2px solid black;
+    
+  }
+  .card{
+    position: relative;
+    left: 50px;
+  }
+
+
+  
+
+  
+  
+  
+  
+    
+
